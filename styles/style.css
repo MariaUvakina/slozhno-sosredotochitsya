@@ -192,6 +192,7 @@
 .advice-title {
   font-size: var(--page-font-size);
 }
+
 .section_gallery {
   display: grid;
   gap: 10px;
