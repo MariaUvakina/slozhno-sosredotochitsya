@@ -46,12 +46,11 @@
   border-color: var(--menu-color);
 }
 
-.header_theme-menu-button:focus {
+.header__theme-menu-button:focus {
   outline: none;
 }
 
-.header_theme-menu-button:focus-visible {
-  outline: none;
+.header__theme-menu-button:focus-visible {
   border-block-end: 1px solid var(--menu-color);
 }
 
@@ -136,6 +135,9 @@
 }
 
 .header_subtitle {
+  justify-self: end;
+  align-self: center;
+  inline-size: clamp(22.188rem, 2.29vw + 21.651rem, 22.75rem);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
